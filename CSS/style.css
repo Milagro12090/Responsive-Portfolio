@@ -17,7 +17,10 @@ body {
     background-position: 0% 50%;
   }
 }
-
+main {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
 img {
   display: block;
   max-width: 100%;
@@ -25,14 +28,15 @@ img {
 }
 
 footer {
-  position: relative;
-  right: 0;
-  bottom: 0;
+  position: absolute;
   left: 0;
-  padding: 1rem;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
   background-color: #292929;
   color: aliceblue;
   text-align: center;
+  padding: 20px;
 }
 
 #background {
