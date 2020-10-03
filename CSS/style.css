@@ -1,9 +1,11 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   background: linear-gradient(-45deg, #e0ae9e, #cc4058, #23a6d5, #23d5ab);
   background-size: 3000% 1000%;
   animation: gradient 10s ease infinite;
-  height: 100%;
-  margin: 0;
 }
 
 @keyframes gradient {
@@ -17,10 +19,6 @@ body {
     background-position: 0% 50%;
   }
 }
-main {
-  min-height: 100%;
-  margin-bottom: -50px;
-}
 img {
   display: block;
   max-width: 100%;
@@ -28,7 +26,7 @@ img {
 }
 
 footer {
-  position: relative;
+  position: absolute;
   left: 0;
   bottom: 0;
   height: 70px;
